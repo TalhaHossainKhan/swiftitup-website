@@ -1,8 +1,3 @@
-import StreamLabsLogo from "../assets/streamlabs-logo.png";
-import BroadcastlyLogo from "../assets/broadcastly-logo.png";
-import LiveStreamerLogo from "../assets/livestreamer-logo.png";
-import CloudCastLogo from "../assets/cloudcast-logo.png";
-
 import streamImage from "../assets/streamer.jpeg";
 import chart from "../assets/chart.png";
 import optimize from "../assets/optimize.jpeg";
@@ -26,23 +21,14 @@ import {
 } from "@remixicon/react";
 
 export const HERO_CONTENT = {
-  badgeText: "🚀 New Feature: Stream Analytics 2.0 Now Live!",
-  mainHeading: "The Ultimate \n Streaming Toolkit+",
+  mainHeading: "Sold Out? \n Not For You",
   subHeading:
-    "Optimize your streams, track real-time analytics, and engage your audience effortlessly—all in one place. Perfect for Twitch, YouTube, and Facebook streamers.",
+    "Our purchasing bots navigate the digital queue with lightning speed, securing your must-have items in milliseconds. Ready to turn 'sold out' into 'purchased'?",
   callToAction: {
-    primary: "Start Free Trial",
-    secondary: "Request a Demo",
+    primary: "Request a Free Consultation",
   },
-  trustedByText: "Trusted by Leading Streaming Brands & Creators",
 };
 
-export const BRAND_LOGOS = [
-  { src: StreamLabsLogo, alt: "StreamLabs" },
-  { src: BroadcastlyLogo, alt: "Broadcastly" },
-  { src: LiveStreamerLogo, alt: "LiveStreamer" },
-  { src: CloudCastLogo, alt: "CloudCast" },
-];
 
 export const HOW_IT_WORKS_CONTENT = {
   sectionTitle: "How it works!",
