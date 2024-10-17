@@ -1,9 +1,6 @@
 import streamImage from "../assets/streamer.jpeg";
 import chart from "../assets/chart.png";
-import optimize from "../assets/optimize.jpeg";
 import audienceEngagementImage from "../assets/audience.jpeg";
-import monetizeImage from "../assets/monetize.jpeg";
-import automationImage from "../assets/automation.jpeg";
 import user1 from "../assets/user1.jpeg";
 import user2 from "../assets/user2.jpeg";
 import user3 from "../assets/user3.jpeg";
@@ -31,14 +28,14 @@ export const HERO_CONTENT = {
 
 
 export const HOW_IT_WORKS_CONTENT = {
-  sectionTitle: "How it works!",
+  sectionTitle: "Past Projects",
   sectionDescription:
-    "Stream like a pro with our 6-step process. From setup to performance tracking, we've got everything you need to elevate your streaming experience.",
+    "Discover our track record of custom-built checkout bots that have revolutionized online purchasing for our clients.",
   steps: [
     {
-      title: "Set Up Your Streaming Environment",
+      title: "Stüssy Bot",
       description:
-        "Easily configure your streaming environment with our user-friendly tools. Connect to Twitch, YouTube, and more in minutes.",
+        "Our custom-built checkout bot successfully secured limited edition Stussy hoodies for our clients, outpacing manual shoppers",
       imageSrc: streamImage,
       imageAlt: "Streaming Setup",
     },
@@ -48,7 +45,6 @@ export const HOW_IT_WORKS_CONTENT = {
         "Interact with your audience in real-time through custom alerts, chat overlays, and live notifications.",
       imageSrc: audienceEngagementImage,
       imageAlt: "Audience Engagement",
-      users: [user1, user2, user3, user5],
     },
     {
       title: "Track and Analyze Performance",
@@ -56,75 +52,54 @@ export const HOW_IT_WORKS_CONTENT = {
         "Monitor your stream’s performance in real-time with detailed analytics and viewer engagement insights.",
       imageSrc: chart,
       imageAlt: "Performance Analytics",
-    },
-    {
-      title: "Optimize Your Stream Settings",
-      description:
-        "Fine-tune your stream settings for optimal performance, ensuring smooth streams even during high traffic.",
-      imageSrc: optimize,
-      imageAlt: "Optimize Settings",
-    },
-    {
-      title: "Monetize Your Streams",
-      description:
-        "Unlock revenue streams by adding subscriptions, donations, and sponsorships to your stream.",
-      imageSrc: monetizeImage,
-      imageAlt: "Monetization",
-    },
-    {
-      title: "Automate Your Workflows",
-      description:
-        "Use advanced automation tools to manage your schedule, alerts, and promotions effortlessly.",
-      imageSrc: automationImage,
-      imageAlt: "Workflow Automation",
-    },
+    }
   ],
 };
 
 export const KEY_FEATURES_CONTENT = {
-  sectionTitle: "Stream Smarter with These Key Features",
+  sectionTitle: "Buy Quickly with These Key Features",
   sectionDescription:
-    "Everything you need to enhance your streaming experience, all in one place.",
+    "Everything you need to enhance your buying experience, all in one place.",
   features: [
     {
       id: 1,
       icon: <RiBarChart2Line className="w-8 h-8" />,
-      title: "Real-Time Stream Analytics",
+      title: "User Friendly",
       description:
         "Track your audience engagement, viewer count, and performance in real-time.",
     },
     {
       id: 2,
       icon: <RiSettings2Line className="w-8 h-8" />,
-      title: "Automated Stream Management",
+      title: "Effeciency",
       description:
         "Set up automated alerts, stream schedules, and more with ease.",
     },
     {
       id: 3,
       icon: <RiTeamLine className="w-8 h-8" />,
-      title: "Audience Engagement Tools",
+      title: "CAPTCHA Bypass",
       description:
         "Interact with your audience through custom alerts, chat integrations, and giveaways.",
     },
     {
       id: 4,
       icon: <RiTwitchLine className="w-8 h-8" />,
-      title: "Twitch Integration",
+      title: "Customizable",
       description:
         "Seamlessly connect with Twitch to automate alerts, manage subscribers, and track donations.",
     },
     {
       id: 5,
       icon: <RiYoutubeLine className="w-8 h-8" />,
-      title: "YouTube Streaming Support",
+      title: "Auto Pay",
       description:
         "Go live on YouTube with built-in tools for managing chats, subscribers, and more.",
     },
     {
       id: 6,
       icon: <RiCalendarLine className="w-8 h-8" />,
-      title: "Schedule Streams",
+      title: "Real Time",
       description:
         "Plan and schedule your streams ahead of time, with reminders sent to your audience.",
     },
