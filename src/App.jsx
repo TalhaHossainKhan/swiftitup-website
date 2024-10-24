@@ -4,6 +4,7 @@ import Project from "./components/Project"
 import KeyFeatures from "./components/KeyFeatures"
 import Testimonials from "./components/Testimonials"
 import Footer from "./components/Footer"
+import SectionConsultation from "./components/sectionConsultation.jsx"
 
 const App = () =>{
   return(
@@ -12,7 +13,7 @@ const App = () =>{
       <HeroSection />
       <Project />
       <KeyFeatures />
-      <Testimonials />
+      <SectionConsultation />
       <Footer />
     </main>
   )
