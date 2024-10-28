@@ -43,12 +43,12 @@ const HeroSection = () => {
              </motion.p>
 
              <motion.div
-             variants={fadeInUp}
-              className="mt-6 space-x-4">
-                <a href="#" className="inline-block bg-blue-600 hover:bg-blue-500 text-white py-3 px-6 rounded-lg font-medium">
+                variants={fadeInUp}
+                className="mt-6 space-x-4">
+                <a href="#consultation" className="inline-block bg-blue-600 hover:bg-blue-500 text-white py-3 px-6 rounded-lg font-medium">
                     {HERO_CONTENT.callToAction.primary}
                 </a>
-             </motion.div>
+            </motion.div>
 
              <motion.div
              variants={fadeIn}
