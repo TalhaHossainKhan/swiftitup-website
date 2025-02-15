@@ -49,6 +49,16 @@ const Navbar = () => {
                         Past Projects
                     </motion.a>
                     <motion.a 
+                        href="#testimonial" 
+                        className="hover:text-neutral-200"
+                        variants={navItemVariants}
+                        initial="hidden"
+                        animate="visible"
+                        whileHover={{ scale: 1.05 }}
+                    >
+                        Testimonials
+                    </motion.a>
+                    <motion.a 
                         href="#key-features" 
                         className="hover:text-neutral-200"
                         variants={navItemVariants}

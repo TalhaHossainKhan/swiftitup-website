@@ -1,9 +1,6 @@
 import stussyGif from "../assets/stussy.gif";
-import iphone16Gif from "../assets/iphone16.gif";
-import stanleyGif from "../assets/stanley.gif";
-import user1 from "../assets/user1.jpeg";
-import user2 from "../assets/user2.jpeg";
-import user3 from "../assets/user3.jpeg";
+import popmartGif from "../assets/popmart.gif";
+import user2 from "../assets/user2.jpg";
 
 import {
   RiSettings2Line,
@@ -37,18 +34,11 @@ export const HOW_IT_WORKS_CONTENT = {
       imageAlt: "Stussy",
     },
     {
-      title: "iPhone 16 Bot",
+      title: "Popmart Bot",
       description:
-        "We created this checkout bot to sucessfully secure iPhone 16s during the recent launch and bypass CAPTCHA.",
-      imageSrc: iphone16Gif,
-      imageAlt: "iPhone 16",
-    },
-    {
-      title: "Stanely Cup Bot",
-      description:
-        "We built this bot during the surge in popularity for Stanely cups and successfully secured these cups for our clients",
-      imageSrc: stanleyGif,
-      imageAlt: "Stanely Cup",
+        "We built this bot for our client to automatically purchase Popmart toys when they are in stock and during upcoming releases",
+      imageSrc: popmartGif,
+      imageAlt: "Popmart",
     }
   ],
 };
@@ -70,14 +60,14 @@ export const KEY_FEATURES_CONTENT = {
       icon: <RiSettings2Line className="w-8 h-8" />,
       title: "Effeciency",
       description:
-        "We optimized our bot's performance through strategic delays, randomized actions, and error handling, leading to a 40% reduction in failed checkout attempts",
+        "We optimized our bot's performance through strategic delays, randomized actions, and error handling",
     },
     {
       id: 3,
       icon: <RiLockUnlockLine className="w-8 h-8" />,
-      title: "CAPTCHA Bypass",
+      title: "Flag Bypass",
       description:
-        "We integrated 2Captcha CAPTCHA solver within our bots to allow our bots to function properly",
+        "We integrated Proxies and User Agent rotation within our bots to bypass being flagged",
     },
     {
       id: 4,
@@ -109,25 +99,11 @@ export const TESTIMONIALS_CONTENT = {
     "Hear from some of our clients who used our bots to automate their purchases and secure limited drops",
   reviews: [
     {
-      name: "",
-      title: "",
+      name: "Ron Alfara",
+      title: "Senior Business Analyst at NSW Government Australia",
       review:
-        "",
-      image: user1,
-    },
-    {
-      name: "",
-      title: "",
-      review:
-        "",
+        "Working with SwiftItUp has been an outstanding experience. They are passionate and creative software developers who delivered a highly effective custom bot solution based on my requirements. The bot monitors over ten out-of-stock items simultaneously and automatically purchases them when they become available. The excellent documentation and video walkthrough provided make installation and operation user-friendly. Their professionalism and strong work ethic are impressive. They updated me, quickly resolved issues, and offered exceptional ongoing maintenance. I am delighted with the bot's efficiency and reliability, and I highly recommend SwiftItUp for any software development projects.",
       image: user2,
-    },
-    {
-      name: "",
-      title: "",
-      review:
-        "",
-      image: user3,
     }
   ],
 };
@@ -137,11 +113,12 @@ export const FOOTER_CONTENT = {
     {
       title: "CONNECT WITH US",
       links: [
-        { text: "Email", url: "mailto:talhahossain75@gmail.com" },
-        { text: "LinkedIn", url: "https://www.linkedin.com/in/talha-hossain-khan-6327b72a5/" },
-        { text: "Discord", url: "https://discordapp.com/users/261124422281330688" },
+        { text: "Email", url: "mailto:swiftitup1@gmail.com" },
+        { text: "Instagram", url: "https://www.instagram.com/swiftitupbot/" },
+        { text: "Tiktok", url: "https://www.tiktok.com/@swiftitupbot" },
+        { text: "LinkedIn", url: "https://www.linkedin.com/in/talha-hossain-khan-6327b72a5/" }
       ],
     },
   ],
-  copyrightText: "© 2024 SwiftItUp, Inc. All rights reserved.",
+  copyrightText: "© 2025 SwiftItUp, Inc. All rights reserved.",
 };

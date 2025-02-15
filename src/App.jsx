@@ -12,6 +12,7 @@ const App = () =>{
       <Navbar />
       <HeroSection />
       <Project />
+      <Testimonials />
       <KeyFeatures />
       <SectionConsultation />
       <Footer />
