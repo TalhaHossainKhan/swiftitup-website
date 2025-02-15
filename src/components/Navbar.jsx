@@ -113,6 +113,14 @@ const Navbar = () => {
                                 Past Projects
                             </motion.a>
                             <motion.a 
+                                href="#testimonial" 
+                                className="hover:text-neutral-200"
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                            >
+                                Testimonials
+                            </motion.a>
+                            <motion.a 
                                 href="#key-features" 
                                 className="hover:text-neutral-200"
                                 whileHover={{ scale: 1.05 }}
