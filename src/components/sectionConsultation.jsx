@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import { motion } from "framer-motion";
 import emailjs from 'emailjs-com';
+import PhoneInput from 'react-phone-input-2'; // Importing a library for phone input
+import 'react-phone-input-2/lib/style.css'; // Importing styles for the phone input
 
 const SectionConsultation = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
+        phone: '', // New field for phone number
         description: ''
     });
 
@@ -31,6 +34,10 @@ const SectionConsultation = () => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
+    const handlePhoneChange = (value) => {
+        setFormData({ ...formData, phone: value }); // Update phone number with country code
+    };
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         
@@ -41,7 +48,7 @@ const SectionConsultation = () => {
         try {
             await emailjs.send(serviceID, templateID, formData, userID);
             setIsSubmitted(true);
-            setFormData({ name: '', email: '', description: '' });
+            setFormData({ name: '', email: '', phone: '', description: '' });
         } catch (error) {
             console.error('Error submitting form:', error);
             alert('An error occurred. Please try again.');
@@ -92,6 +99,26 @@ const SectionConsultation = () => {
                                 onChange={handleChange}
                                 required
                                 className="w-full px-3 py-2 bg-neutral-800 border border-neutral-700 rounded-md text-neutral-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            />
+                        </div>
+                        <div>
+                            <label htmlFor="phone" className="block text-sm font-medium text-neutral-300 mb-1">Phone Number</label>
+                            <PhoneInput
+                                country={'us'} // Default country
+                                value={formData.phone}
+                                onChange={handlePhoneChange}
+                                inputStyle={{
+                                    width: '100%',
+                                    backgroundColor: '#262626',
+                                    color: '#d1d5db',
+                                    borderColor: '#3E3D3D',
+                                    borderRadius: '0.375rem',
+                                    paddingLeft: '3rem'
+                                }}
+                                dropdownStyle={{
+                                    backgroundColor: '#262626',
+                                    color: '#d1d5db'
+                                }}
                             />
                         </div>
                         <div>

@@ -1,5 +1,6 @@
 import stussyGif from "../assets/stussy.gif";
 import popmartGif from "../assets/popmart.gif";
+import smsGif from "../assets/sms.gif";
 import user2 from "../assets/user2.jpg";
 
 import {
@@ -7,14 +8,14 @@ import {
   RiTeamLine,
   RiLockUnlockLine,
   RiDatabaseLine,
-  RiBankLine,
+  RiMagicLine,
   RiTimeLine,
 } from "@remixicon/react";
 
 export const HERO_CONTENT = {
-  mainHeading: "Sold Out? \n Not For You",
+  mainHeading: "Overwhelmed? \n Let Us Automate",
   subHeading:
-    "Our checkout bots navigate the digital queue with lightning speed, securing your must-have items in seconds. Ready to turn 'sold out' into 'purchased'?",
+    "Our automation solutions navigate complex workflows with precision, transforming tedious tasks into seamless processes in seconds. Ready to turn 'overwhelmed' into 'effortless'?",
   callToAction: {
     primary: "Request a Free Consultation",
   },
@@ -24,14 +25,14 @@ export const HERO_CONTENT = {
 export const HOW_IT_WORKS_CONTENT = {
   sectionTitle: "Past Projects",
   sectionDescription:
-    "Discover our track record of custom-built checkout bots that have revolutionized online purchasing for our clients.",
+    "Discover our track record of custom-built automation bots.",
   steps: [
     {
-      title: "Stüssy Bot",
+      title: "SMS Bot",
       description:
-        "Our custom-built checkout bot successfully secured limited edition Stussy hoodies for our clients, outpacing manual shoppers",
-      imageSrc: stussyGif,
-      imageAlt: "Stussy",
+        "This bot was designed for our client to automatically be able to book shifts for work within milliseconds of their release",
+      imageSrc: smsGif,
+      imageAlt: "Popmart",
     },
     {
       title: "Popmart Bot",
@@ -39,14 +40,22 @@ export const HOW_IT_WORKS_CONTENT = {
         "We built this bot for our client to automatically purchase Popmart toys when they are in stock and during upcoming releases",
       imageSrc: popmartGif,
       imageAlt: "Popmart",
+    },
+    {
+      title: "Stüssy Bot",
+      description:
+        "Our custom-built checkout bot successfully secured limited edition Stussy hoodies for our clients, outpacing manual shoppers",
+      imageSrc: stussyGif,
+      imageAlt: "Stussy",
     }
+
   ],
 };
 
 export const KEY_FEATURES_CONTENT = {
-  sectionTitle: "Buy Quickly with These Key Features",
+  sectionTitle: "Save Time with These Key Features",
   sectionDescription:
-    "Everything you need to enhance your buying experience, all in one place.",
+    "Everything you need, all in one place.",
   features: [
     {
       id: 1,
@@ -74,14 +83,14 @@ export const KEY_FEATURES_CONTENT = {
       icon: <RiDatabaseLine className="w-8 h-8" />,
       title: "Customizable",
       description:
-        "We will never ask for your information before hand as you can customize our bots to include your personal information for payment purposes",
+        "We will never ask for your information before hand as you can customize our bots to include your personal information",
     },
     {
       id: 5,
-      icon: <RiBankLine className="w-8 h-8" />,
-      title: "Auto Pay",
+      icon: <RiMagicLine className="w-8 h-8" />,
+      title: "Automatic",
       description:
-        "Our bots performs all the buying processes within seconds",
+        "Our bots performs all your tasks automatically, even whilst you are asleep",
     },
     {
       id: 6,
@@ -96,7 +105,7 @@ export const KEY_FEATURES_CONTENT = {
 export const TESTIMONIALS_CONTENT = {
   sectionTitle: "What Our Clients Say",
   sectionDescription:
-    "Hear from some of our clients who used our bots to automate their purchases and secure limited drops",
+    "Hear from some of our clients who revolutionized their workflow using automation",
   reviews: [
     {
       name: "Ron Alfara",
